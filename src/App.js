@@ -1,24 +1,27 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './componente/navbar.js'
+
+const menu=[
+  {title:'About us',url:"/about-us",className:"is-current"},
+  {title:'Career',url:"/career" },
+  {title:'Departments',
+  
+  drop:
+  [{title:"Marketing & PR", url:"/department?dep=marketing"},
+  {title:"Customer Success & Sales",url:"/department?dep=customer"},
+  {title:"IT, Product, Design & UX",url:"/department?dep=it"},
+  {title:"Finance & Administration",url:"/department?dep=customer"},
+  {title:"HR & more",url:"/department?dep=hr"}]}]
+
+  
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar x={menu}/>
+      
     </div>
   );
 }
