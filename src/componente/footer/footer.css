@@ -1,0 +1,17 @@
+.section_inner {
+  font-size: 13px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #ababab;
+}
+.section_inner a {
+  color: #3d83df;
+  text-decoration: none;
+}
+.section_inner a:hover {
+  text-decoration: underline;
+}
+.section_inner hr {
+  opacity: 0.2;
+  margin-bottom: 30px;
+}

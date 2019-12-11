@@ -1,0 +1,62 @@
+.offices-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 200%;
+}
+.office {
+  height: 365px;
+  margin-bottom: 65px;
+  background-color: white;
+  border-radius: 0 0 5px 5px;
+}
+.offices-header p {
+  width: 450px;
+  font-size: 14px;
+}
+.offices-header h1 {
+  font-size: 2.13em;
+  width: 400px;
+  line-height: 149%;
+}
+.office-slider {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 55px 107px;
+}
+.office_image img {
+  border-radius: 5px 5px 0 0;
+}
+.office_image {
+  margin: 0;
+}
+.office .office_desc {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.office .office_desc a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #747474;
+  font-size: 16px;
+}
+.office button {
+  border: 0;
+  border-radius: 4px;
+  padding: 1em 1em;
+  background: #3d83df;
+  line-height: 1em;
+  color: #fff;
+  letter-spacing: 0.04em;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.office:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

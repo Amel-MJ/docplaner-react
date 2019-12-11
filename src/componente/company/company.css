@@ -1,0 +1,27 @@
+.company {
+  display: flex;
+  align-items: center;
+  margin: 4% 0 4% 12%;
+}
+.disc-company {
+  font-size: 25px;
+}
+.log-company {
+  flex-wrap: wrap;
+  margin-right: 74px;
+  margin-top: 25px;
+}
+.img-company {
+  width: 150px;
+  max-width: 100%;
+  padding-left: 10px;
+  margin-left: 50px;
+  line-height: 400%;
+}
+.log-company svg {
+  width: 120px;
+  fill: hsla(0, 0%, 67%, 0.7);
+}
+.company svg:hover {
+  fill: #00b39b;
+}

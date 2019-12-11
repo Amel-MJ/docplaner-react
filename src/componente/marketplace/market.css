@@ -1,0 +1,53 @@
+.patients {
+  display: flex;
+
+  justify-content: center;
+}
+.patients h1 {
+  font-size: 26px;
+  color: white;
+}
+
+.patients h2 {
+  font-size: 14px;
+  color: rgb(255, 255, 255, 0.7);
+}
+.marketplace {
+  border-radius: 10px;
+  padding: 22px 40px 0px;
+  overflow: hidden;
+  background-color: #00ccb1;
+  height: 370px;
+  width: 400px;
+  margin-right: 20px;
+}
+.marketplace-content {
+  display: flex;
+}
+#domain-switcher {
+  width: max-content;
+  background: white;
+  border: 0;
+  border-radius: 3px;
+  padding: 0 1em 0;
+  height: 40px;
+  text-transform: uppercase;
+}
+.services__item__screen {
+  margin-left: -20px;
+  max-width: 100%;
+  height: auto;
+}
+
+.visible {
+  border-radius: 10px;
+  padding: 20px 40px 0px;
+  overflow: hidden;
+  background-color: #3d83df;
+  height: 370px;
+  width: 400px;
+}
+
+.yy {
+  margin: 0px 115px;
+}

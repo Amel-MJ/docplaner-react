@@ -1,0 +1,51 @@
+.stat {
+  background: #e5faf8;
+  background-image: url("./logo.png");
+  display: flex;
+  padding: 20px 69px 20px 110px;
+  background-repeat: no-repeat;
+  background-position: 50px 298px;
+}
+.desc-stat {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  padding: 50px;
+}
+.desc-stat p {
+  height: 0;
+  margin-top: -160px;
+  line-height: 180%;
+}
+.desc-stat h1 {
+  height: 0;
+}
+.div-stat {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  width: 50%;
+  justify-content: center;
+}
+.contenu-doctors {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05);
+  height: 220px;
+  width: 200px;
+  text-align: center;
+  padding: 15px;
+  margin: 10px;
+  font-size: 0.8125em;
+}
+
+.contenu-doctors p {
+  font-size: 13px;
+}
+#column1 {
+  margin-top: 50px;
+}
